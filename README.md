@@ -2,10 +2,15 @@
 I created a nodejs script to be able to connect all my servers simultaneously and send several attacks at the same time to increase the firepower the script is not yet finished updates will be added from here may amuse you well &lt;3
 
 
-How to use it ? 
+# How to use it ? 
 
-1: to start add your servers in the lines ask
-  host: '127.0.0.1',
-  port: 22,
-  username: 'C2-Username',
-  password: 'C2-Password'
+1: Now change all information of your server
+
+1-2:  host: '127.0.0.1',
+1-3:  port: 22,
+1-4:  username: 'C2-Username',
+1-4:  password: 'C2-Password'
+
+After put your commande execution of your script on line 18 and 37 
+
+example : node c2.js ' + url + ' ' + time + ' http.txt
