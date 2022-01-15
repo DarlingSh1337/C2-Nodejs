@@ -6,10 +6,13 @@ I created a nodejs script to be able to connect all my servers simultaneously an
 
 1: Now change all information of your server
 
-1-2:  host: '127.0.0.1',
-1-3:  port: 22,
-1-4:  username: 'C2-Username',
-1-4:  password: 'C2-Password'
+2:  host: '127.0.0.1',
+
+3:  port: 22,
+
+4:  username: 'C2-Username',
+
+5:  password: 'C2-Password'
 
 After put your commande execution of your script on line 18 and 37 
 
