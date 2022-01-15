@@ -7,13 +7,15 @@ const conn1 = new Client();
 
 var url = process.argv[2]
 
+var time = process.argv[3]
+
 conn.on('ready', () => {
   conn.shell((err, stream) => {
     if (err) throw err;
     stream.on('close', () => {
     }).on('data', (data) => {
     });
-    stream.end('node c2.js ' + url + ' time http.txt\nexit\n');
+    stream.end('node c2.js ' + url + ' ' + time + ' http.txt\nexit\n');
   });
 }).connect({
   host: '???',
@@ -32,7 +34,7 @@ conn1.on('ready', () => {
     stream.on('close', () => {
     }).on('data', (data) => {
     });
-    stream.end('node c2.js ' + url + ' time http.txt\nexit\n');
+    stream.end('node c2.js ' + url + ' ' + time + ' http.txt\nexit\n');
   });
 })
 conn1.connect({
