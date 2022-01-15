@@ -17,3 +17,9 @@ I created a nodejs script to be able to connect all my servers simultaneously an
 After put your commande execution of your script on line 18 and 37 
 
 example : node c2.js ' + url + ' ' + time + ' http.txt
+
+# And now ? 
+
+now you can start your c2 with all your server and method simultaneously with this command ->
+
+* node c2-node.js url time *
