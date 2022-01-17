@@ -22,6 +22,7 @@ conn.on('ready', () => {
   port: 22,
   username: 'C2-Username',
   password: 'C2-Password'
+  //privateKey: readFileSync('/path/to/my/key') use this line if you use SSH KEY 
 });
 console.log('Client > 1 connected');
 
@@ -42,6 +43,7 @@ conn1.connect({
   port: 22,
   username: 'C2-Username',
   password: 'C2-Password'
+//privateKey: readFileSync('/path/to/my/key') use this line if you use SSH KEY 
 });
 
 console.log('Client > 2 connected');
