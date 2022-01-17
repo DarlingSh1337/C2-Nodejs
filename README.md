@@ -22,4 +22,4 @@ example : node c2.js ' + url + ' ' + time + ' http.txt
 
 now you can start your c2 with all your server and method simultaneously with this command ->
 
-* node c2-node.js url time *
+* node c2-node.js url time
